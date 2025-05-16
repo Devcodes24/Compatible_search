@@ -1,0 +1,45 @@
+<form action="{{ url('/horoshow') }}" method="POST" style="display: flex; flex-direction: column; align-items: center;">
+    @csrf
+    <div style="display: flex; width: 80%; max-width: 600px;">
+        <div class="boy" style="flex: 1; margin-right: 20px;">
+            <h2>Boy details:</h2>
+
+            <label>Name:</label>
+            <input type='text' name="boy_name" id="boy_name" placeholder="Harsh Dubey" style="width: 100%; max-width: 250px;" required>
+            <br><br>
+            <label>DOB</label>
+            <br>
+            <input type='date' name="boy_date" id="boy_date" placeholder="dd-mm-yyyy" style="width: 100%; max-width: 250px;" required>
+            <br><br>
+            <label>Time of birth</label>
+            <input type='time' name="boy_time" id="boy_time" placeholder="hh-mm-ss" style="width: 100%; max-width: 250px;" >
+            <br><br>
+            <label>Place of birth</label>
+            <input type='text' name="boy_place" id="boy_place" placeholder="District, State, Country" style="width: 100%; max-width: 250px;" required>
+            <br><br>
+
+        </div>
+
+        <div class="girl" style="flex: 1;">
+            <h2>Girl details:</h2>
+
+            <label>Name:</label>
+            <input type='text' name="girl_name" id="girl_name" placeholder="Sneha Yadav" style="width: 100%; max-width: 250px;">
+            <br><br>
+            <label>DOB</label>
+            <br>
+            <input type='date' name="girl_date" id="girl_date" placeholder="dd-mm-yyyy" style="width: 100%; max-width: 250px;">
+            <br><br>
+            <label>Time of birth</label>
+            <input type='time' name="girl_time" id="girl_time" placeholder="hh-mm-ss" style="width: 100%; max-width: 250px;">
+            <br><br>
+            <label>Place of birth</label>
+            <input type='text' name="girl_place" id="girl_place" placeholder="District, State, Country" style="width: 100%; max-width: 250px;">
+            <br><br>
+
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; width: 80%; max-width: 600px; margin-top: 20px;">
+        <button type="submit" style="width: 50%; max-width: 300px;">Submit</button>
+    </div>
+</form>

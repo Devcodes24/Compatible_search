@@ -233,8 +233,8 @@
                 <thead>
                     <tr>
                         <th>Kootam</th>
-                        <th>{{ $boy_name }} Details</th>
                         <th>{{ $girl_name }} Details</th>
+                        <th>{{ $boy_name }} Details</th>
                         <th>Score</th>
                     </tr>
                 </thead>

@@ -155,7 +155,7 @@
                 <h2>Boy details:</h2>
 
                 <label for="boy_name">Name:</label>
-                <input type='text' name="boy_name" id="boy_name" placeholder="Harsh" style="width: 100%; max-width: 250px;" required>
+                <input type='text' name="boy_name" id="boy_name" placeholder="Rahul" style="width: 100%; max-width: 250px;" required>
                 <br><br>
                 <label for="boy_date">DOB</label>
                 <br>
